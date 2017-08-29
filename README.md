@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/eirslett/bankie.svg?branch=master)](https://travis-ci.org/eirslett/bankie)
+
 # Bankie
 
 This tool calculates IBAN bank account numbers.
