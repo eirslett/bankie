@@ -59,6 +59,18 @@ npm run mocha
 npm run lint
 ```
 
+##### Releasing
+
+Check out the `master` branch, run
+
+```
+# could be npm version "minor" or "major" instead of "patch"
+npm version patch -m "Release new version"
+git push --follow-tags
+```
+
+Travis CI will build and release the package.
+
 Some resources/datasets are stored in the resources/ directory.
 These can be processed by build scripts inside the build/ directory,
 for example to convert xls/csv files to JSON.
