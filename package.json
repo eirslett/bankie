@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "license": "MIT",
+  "homepage": "https://github.com/eirslett/bankie",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/eirslett/bankie.git"
+  },
   "devDependencies": {
     "chai": "^4.1.1",
     "mocha": "^3.5.0",
