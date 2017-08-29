@@ -51,7 +51,7 @@ Here are some common commands:
 npm run build
 
 # Run tests
-npm test
+npm run mocha
 
 # Run lint
 npm run lint
