@@ -65,7 +65,7 @@ Check out the `master` branch, run
 
 ```
 # could be npm version "minor" or "major" instead of "patch"
-npm version patch -m "Release new version"
+npm version patch
 git push --follow-tags
 ```
 
