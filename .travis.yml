@@ -1,3 +1,11 @@
 language: node_js
 node_js:
-  - "6"
+- '6'
+deploy:
+  provider: npm
+  email: eiriksletteberg@gmail.com
+  api_key:
+    secure: Msf/LUk9NWXOWI+Wzbg4e6gw53Fbk0xloYAedYEZyGVeGqimOGh6TUO+Mvwj8lYNk2LI0xBCok4/RdAKaAN/fsF9G7R2hfOiGaOfwdNnyJqzmeKpWx5STBJC7waAK0mNmZ2hKWUlTGq93B5c1PDTa9GDsauFBdKMsOuZ3yKfqvT5VQ5fchdy64hvCZGdZBvscBHby+pcd06n3YmkSDp0a2yky5l3xVISf8KIaqtRjvhuAdKNoAmts0Bk+QBjwtQEkMympUb6k/s44+HtIDw3xGXqN2ygpVhXrgCQU/eYezRFG7CFnDb20JBxestwl73og+SSEV8KYsuRdNB5FT1FrTOeGIixtBjkzvWfDB3vk2qQnViSsp2p3/6WJI66FAZJj42BOKCC2aSPLtlxUqwmOLCSs8vdxel8aqe9Kr6duIzRlj3sHuv2xHMDwqepTkSwy7sEGPvcDFjCvZ4Ace54oqKgxx/lsTehe95HytG8wv2u1CMKzmBxS0+N+zmnjQSXfIviwfWzfe9lPdSXi6Uy0GteC+EcpbgENoFuuodOXM/AXyZHTfYPW2h5egYJMXBiT+T1w80ghmOeNcFgWGCbb6JgJxYqLBHgkXJV+3tKJrG7JnyKUOJAj2NxBTMTmQJLfnH5CFaYWELu3vvgG3KPtB+Jw1ECDR2PRneH7LqHCHY=
+  on:
+    tags: true
+    repo: eirslett/bankie
